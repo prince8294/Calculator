@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.outputbox{
+    height: 25vh; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.output{
+    height: 20vmin;
+    width: 52vmin;
+   border-radius: 1rem;
+   border: none;
+   box-shadow: 0 0 1rem rgb(0, 0, 0);
+   font-size: 8vmin;
+   text-align: right;
+   background-color: rgb(22, 22, 23);
+  color: rgb(255, 255, 255);
+}
+.AllBigBox{
+    height: 70vh; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Calculator{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.Buttan{
+    height: 12vmin;
+    width: 12vmin;
+   border-radius: 1rem;
+   border: none;
+   box-shadow: 0 0 1rem rgb(43, 43, 44);
+   font-size: 10vmin;
+   text-align: center;
+   background-color: rgb(11, 11, 11);
+   color: rgb(255, 255, 255);
+}
